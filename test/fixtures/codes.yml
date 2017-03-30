@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  language: MyString
+  string_var: MyString
+  int_var: 1
+
+two:
+  language: MyString
+  string_var: MyString
+  int_var: 1
