@@ -6,6 +6,10 @@ class PagesController < ApplicationController
     @code = Code.new
   end
   
+  def index
+    @codes = Code.all
+  end
+  
   def create
     @code = Code.new(code_params)
     if @code.save

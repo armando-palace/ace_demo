@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="col-sm-12">
+    <% @codes.each do |code| %>
+      <h3>
+        <%= code.textArea %>
+      </h3>
+    <% end %>
+    <h5>
+      <%= link_to "Go Back", root_path %>
+    </h5>
+  </div>
+</div>
